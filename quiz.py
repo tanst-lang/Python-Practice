@@ -5,7 +5,8 @@ print("what is the fastest animal?\na: cheetah\nb: swordfish\nc: peregrine falco
 question_1= input("your answer:")
 answer_1= "c"
 if question_1==answer_1 :
-    print("correct!")
+    print("correct! peregrine falcons are the fastest animal in the world")
+    print()
     score +=1
 else :
     print("whoops that's incorrect")
@@ -58,4 +59,6 @@ else:
     print("whoops that's incorrect")
 
 #final score
-print("well done you got "+str(score)+" out of 5 questions correct")
+if score>3:
+    print("good job you got more than half right")
+print("well done you got "+str(score)+" out of 6 questions correct")
