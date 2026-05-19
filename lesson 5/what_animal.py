@@ -9,29 +9,39 @@
 
 
 # Ask your user a question about themselves, giving them 2 options
-qestion_1= input("are you more of a morning or night person?\na: morning\nb: night\na or b: ")
+question_1= input("are you more of a morning or night person?\na: morning\nb: night\na or b: ")
 # Check if they picked the first option
-if qestion_1=="b":
+if question_1=="b":
     # Ask the next question
     question_1_2= input("are you more quiet or curious?\na: quiet\nb: curious\na or b:")
     # Check if they picked the first option
     if question_1_2=="a":
         # Tell them they're animal 1
         print("you are a greater glider!")
+    elif question_1_2=="b":
+       # Tell them they're animal 2
+        print("you are a platypus!")
     # Otherwise
     else:
-        print("you are a platypus!")
-        # Tell them they're animal 2
-
+        print("please answer using either a or b")
+# Otherwise
+elif question_1=="a":
+    #ask the next question
+    question_2=input("would you rather talk to people or have an adventure\na: talk\nb: adventure\na or b:")
+    # Check if they picked the first option
+    if question_2=="a":
+        #tell them they are animal 3
+        print("you are a swift parrot!")
+    elif question_1=="b":
+        #tell them they are animal 4
+        print("you are a wallaby!")
+    # Otherwise        
+    else:
+     print("please answer using either a or b")        
 # Otherwise
 else:
-    qestion_2=input("would you rather chat with people or have an adventure\na: chat\nb: adventure\na or b:")
+    print("please answer using either a or b")
 
-    if qestion_2=="a":
-        print("you are a swift parrot!")
-    # Otherwise
-    else:
-        print("you are a wallaby!")
 
 
 # __________________________
