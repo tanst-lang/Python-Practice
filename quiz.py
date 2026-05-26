@@ -1,12 +1,5 @@
-#scoring
-score= 0
-#question 1 
-print("what is the fastest animal?\na: cheetah\nb: swordfish\nc: peregrine falcon ")
-question_1= input("your answer:")
-answer_1= "c"
-if question_1==answer_1 :
-    print("correct! peregrine falcons are the fastest animal in the world")
-    print(fr"""
+#region ASCII art
+falcon=fr"""
              /
 \\\' ,      / //
  \\\//    _/ //'
@@ -16,18 +9,11 @@ if question_1==answer_1 :
    /,)-^>>  _\`
    (/   \\ / \\\
          //  //\\\
-        ((`""")
-    score +=1
-else :
-    print("whoops that's incorrect")
+        ((`
+          
+          """
+scared=r"""
 
-#question 2
-print("What is acrophobia a fear of?\na: spiders\nb: hieghts\nc: water")
-question_2=input("your answer:")
-answer_2="b"
-if question_2==answer_2:
-    print("correct! acrophbia is the fear of hieghts")
-    print(r"""
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣠⣤⣶⣶⣶⣤⣄⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠰⠿⣿⣿⣿⣿⣿⣿⣿⣿⣦⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⣈⠉⠻⣿⣿⣿⣿⣿⠿⠿⠿⢿⣿⣆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
@@ -53,17 +39,11 @@ if question_2==answer_2:
 ⠀⠀⠀⠀⠀⠀⠀⠀⣰⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇⠈⠻⣷⣙⣷⣄⠙⠂⠀⠀⠀⠀⠀⠀⠀⠀⠀⠸⠿⠟⡁⠀⠀⠀⢀⠙⢿⣿⣿⢿⣿⣿⣿⣿⣿⣿⣿⣿⣧⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⢰⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⢿⣿⡿⢻⠀⠀⠙⢳⣿⣟⡛⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠸⠋⠀⡄⠐⣴⠁⢳⣤⢙⢃⠎⠉⠻⣿⣿⣿⣿⣿⣷⣾⡆⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⢰⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣃⣿⣦⡙⣇⣀⡀⠀⠈⠉⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠄⢀⣤⣷⣄⣠⣾⣿⣷⣌⣀⡎⣾⣴⡙⣰⣬⢻⣿⣿⣿⣿⣿⣿⣄⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⢠⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣏⣧⠓⣻⣿⣿⣏⠀⠉⠁⠀⠀⠀⣷⣦⢬⠟⠀⡔⡰⠃⣌⡂⣻⣿⡿⢋⣘⠻⣿⣿⣿⣿⣧⣼⠁⢙⣿⡻⠿⣿⣿⣿⣿⣿⣿⣿⡄⠀⠀⠀⠀""")
-    score +=1
-else:
-    print("whoops that's incorrect")
+⠀⠀⠀⠀⠀⢠⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣏⣧⠓⣻⣿⣿⣏⠀⠉⠁⠀⠀⠀⣷⣦⢬⠟⠀⡔⡰⠃⣌⡂⣻⣿⡿⢋⣘⠻⣿⣿⣿⣿⣧⣼⠁⢙⣿⡻⠿⣿⣿⣿⣿⣿⣿⣿⡄⠀⠀⠀⠀
 
-#question 3
-question_3 = input("what color is Aureolin a shade of?\nyour answer:")
-answer_3 = "yellow"
-if question_3==answer_3:
-    print("correct!")
-    print(r"""
+
+"""
+yellow=r"""
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣾⡿⠳⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣤⡶⠶⢖⠦⣄⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⣾⣷⡀⠀⠀⠀⠀⠀⠐⠋⠉⠉⠛⢷⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢰⠟⠀⠀⠀⠀⠀⠈⢳⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⡿⠋⠀⠀⠀⢀⣀⣠⠤⠤⠤⠤⠤⠤⠤⢌⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢻⠀⠀⠀⠀⠀⠀⠀⢸⠇⠀⠀⠀⠀⠀
@@ -72,7 +52,7 @@ if question_3==answer_3:
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⡴⢋⡤⢊⣁⡀⠀⠀⠀⠀⠀⠀⠀⣞⣾⠃⠀⠀⠀⠀⠀⠹⣿⡄⠀⠱⡄⠀⠀⠑⣄⠀⠀⢀⣠⣽⠶⠶⠶⠒⠒⠒⠛⢤⣄⡀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⠋⡴⢋⢔⣭⣴⣿⣷⣤⠀⠀⠀⠀⠰⣽⠃⠀⠀⠀⠀⠀⠀⠀⢹⣇⠀⠀⠘⡄⠀⠀⠈⢳⣶⠟⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠯⠻⣦⡀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⡜⢡⠎⢠⢯⣿⠋⠁⠀⠈⠻⣷⠀⠀⠀⠀⡏⠀⠀⠀⠐⢷⢶⣄⠀⠀⣿⠀⠀⠐⠁⠀⠀⢰⡟⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠪⠙⣆⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⡞⢠⠃⠀⣮⡿⠁⠀⠀⠀⠀⠀⠻⣇⠀⠀⠀⡇⠀⠀⢀⠀⣸⣷⣻⡄⠀⣿⠀⠀⠀⠀⠀⠀⣏⠓⠒⢀⣀⣀⣀⣀⣀⣀⣀⣀⠀⢠⠂⠀⠀⠀⠘⡄
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⡞⢠⠃⠀⣮⡿⠁⠀⠀⠀⠀⠀⠻⣇⠀⠀⠀⡇⠀⠀⢀⠀⣸⣷⣻⡄⠀⣿⠀⠀⠀⠀⠀⣏⠓⠒⢀⣀⣀⣀⣀⣀⣀⣀⣀⠀⢠⠂⠀⠀⠀⠘⡄
 ⠀⠀⣀⣠⣤⣀⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡞⢀⠇⠀⢰⣿⠇⠀⠀⠀⠀⠶⣶⡄⢹⠀⠀⠀⡇⠀⠀⣾⢹⣿⣿⣏⡇⠀⣿⠀⠀⣀⣤⡤⠤⣼⣶⠿⠛⠉⠀⠀⠀⠀⠀⠀⠉⠙⡇⠀⠀⠀⠀⠀⡇
 ⣠⠾⠋⠀⠀⠈⠻⡷⡀⠀⠀⠀⠀⠀⠀⢰⠁⠸⠀⠀⠸⣿⠀⠀⠀⠀⣄⣀⣷⣽⣸⠀⠀⠀⣇⠀⠀⠸⣞⣿⣅⣽⠁⢀⣇⣴⠞⠋⠁⠀⣼⠏⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠇⠀⠀⠀⠀⠀⢸
 ⡇⠀⠀⠀⠀⠀⠀⠀⠘⡆⠀⠀⠀⠀⠀⢸⠀⠀⠀⠀⢰⣿⠀⠀⠀⠀⣇⣿⣿⣿⣿⠀⠀⠀⠀⡄⠀⠀⠙⠧⠽⠃⠀⡼⠋⠀⠀⠀⠀⠀⣯⠦⠄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
@@ -86,17 +66,11 @@ if question_3==answer_3:
 ⠀⠀⠀⠹⡄⠀⠀⠀⠀⠀⠀⠉⠻⡄⠀⠀⠀⠀⠀⠀⣰⠁⠀⠀⠀⠀⠀⠀⠈⢿⣿⣿⣿⣿⣿⣿⠃⣠⠏⠀⠀⣰⠏⠀⠀⠀⠀⠠⠞⢁⡴⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠙⣄⠀⠀⠀⠀⠀⠀⠀⠊⠀⠀⠀⠀⢀⡴⠋⠳⢄⠀⠀⠀⠀⠀⠀⠀⠹⣿⣿⣿⣿⠁⠊⠀⠀⢀⡰⠋⠀⠀⠀⠀⠀⣠⡴⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠈⠑⠦⣀⡀⠀⠀⠀⠀⠀⣀⡠⠖⠋⠀⠀⠀⠀⠙⠢⢄⡀⠀⠀⠀⠀⠈⠛⢿⣇⣀⣀⣠⠴⠋⠀⠀⠀⢀⣀⠤⠚⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠉⠒⠒⠚⠉⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠙⠒⠤⢤⣀⣀⣀⣀⣀⣀⣀⣀⡠⠤⠖⠚⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀""")
-    score +=1
-else:
-    print("whoops that's incorrect")
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠉⠒⠒⠚⠉⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠙⠒⠤⢤⣀⣀⣀⣀⣀⣀⣀⣀⡠⠤⠖⠚⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 
-#question 4
-question_4= input("what year was the video game 'Minecraft' officially released?\nyour answer:")
-answer_4= "2011"
-if question_4==answer_4:
-    print("correct!")
-    print("""
+
+"""
+steve="""
 ⠀⠀⠀⠀⠀⣾⠛⡟⠻⢶⣤⣼⣿⡶⣦⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⡠⣄⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⢸⣧⣾⠇⠀⠀⢸⠛⡿⣄⠀⠉⠻⢶⣄⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⢀⡀⢤⣀⣂⣤⣤⣷⣶⣷⠈⠻⣦⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⣼⣿⡿⢠⣆⠀⡟⠲⠇⠀⠙⠲⢄⡀⠉⠛⠷⣦⡀⠀⢠⣾⣿⣿⣿⣿⣷⣿⣿⣿⣿⣿⣿⣿⣿⣿⠀⠀⠈⠙⢷⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
@@ -134,17 +108,11 @@ if question_4==answer_4:
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡄⠀⠀⣰⡟⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣧⠀⢠⡟⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠹⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣆⡞⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠹⠿⠿⠿⠿⠛⠛⠛⠛⠛⠛⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀""")
-    score +=1
-else:
-    print("whoops that's incorrect")
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠹⠿⠿⠿⠿⠛⠛⠛⠛⠛⠛⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 
-#question 5
-question_5= input("how many time zones are there in the world?\nyour answer:")
-answer_5= "24"
-if question_5==answer_5:
-    print("correct!")
-    print(fr"""
+
+"""
+earth=fr"""
         _____
     ,-:` \;',`'-, 
   .'-;_,;  ':-;_,'.
@@ -155,18 +123,11 @@ if question_5==answer_5:
  \     | .'     `-'/
   `.   ;/        .'
     `'-._____. '
-""")
-    score +=1
-else:
-    print("whoops that's incorrect")
 
-#question 6
-print("in the series 'The Amazing World Of Gumball' what kind of animal is Anais?\na: mouse\nb: hamster\nc: rabbit")
-question_6= input("your answer:")
-answer_6= "c"
-if question_6==answer_6:
-    print("correct!")
-    print(fr"""
+    
+    
+    """
+rabbit=fr"""
              ,
             /|      __
            / |   ,-~ /
@@ -187,13 +148,80 @@ if question_6==answer_6:
      ]\      _\    /"\
     (" ~----( ~   Y.  )
 ~~~~~~~~~~~~~~~~~~~~~~~~~
-""")
+
+
+
+"""
+#endregion
+#scoring
+score= 0
+
+#question 1 
+print("what is the fastest animal?\na: cheetah\nb: swordfish\nc: peregrine falcon")
+question_1= input("Your answer:").strip().lower()
+answer_1= "c"
+#check answer
+if question_1==answer_1 :
+    print(f"correct! peregrine falcons are the fastest animal in the world{falcon}")
+    score +=1
+else :
+    print("whoops that's incorrect, the correct answer was peregrine falcon (c)")
+
+#question 2
+print("What is acrophobia a fear of?\na: spiders\nb: hieghts\nc: water")
+question_2=input("your answer:").strip().lower()
+answer_2="b"
+#check answer
+if question_2==answer_2:
+    print(f"correct! acrophbia is the fear of hieghts{scared}")
     score +=1
 else:
-    print("whoops that's incorrect")
+    print("whoops that's incorrect, the correct answer was hieghts (b)")
+
+#question 3
+question_3 = input("what color is Aureolin a shade of?\nyour answer:").strip().lower()
+answer_3 = "yellow"
+#check answer
+if question_3==answer_3:
+    print(f"that's correct!{yellow}")
+    score +=1
+else:
+    print("whoops that's incorrect, the correct answer was yellow")
+
+#question 4
+question_4= input("what year was the video game 'Minecraft' officially released?\nyour answer:").strip().lower()
+answer_4= "2011"
+#check answer
+if question_4==answer_4:
+    print(f"that's correct!{steve}")
+    score +=1
+else:
+    print("whoops that's incorrect, the correct answer was 2011")
+
+#question 5
+question_5= input("how many time zones are there in the world?\nyour answer:").strip()
+answer_5= "24"
+#check answer
+if question_5==answer_5:
+    print(f"that's correct!{earth}")
+    score +=1
+else:
+    print("whoops that's incorrect, the correct answer was 24")
+
+#question 6
+print("in the series 'The Amazing World Of Gumball' what kind of animal is Anais?\na: mouse\nb: hamster\nc: rabbit")
+question_6= input("your answer:").strip().lower()
+answer_6= "c"
+#check answer
+if question_6==answer_6:
+    print(f"correct!{rabbit}")
+    score +=1
+else:
+    print("whoops that's incorrect, the correct answer was rabbit (c)")
 
 #final score
 print("You got "+str(score)+" out of 6 questions correct")
+#score feedback
 if score==6:
     print("congradulations you got all of them correct!")
 elif score>3:
