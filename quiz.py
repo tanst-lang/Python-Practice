@@ -10,8 +10,7 @@ falcon=fr"""
    (/   \\ / \\\
          //  //\\\
         ((`
-          
-          """
+"""
 scared=r"""
 
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣠⣤⣶⣶⣶⣤⣄⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
@@ -40,8 +39,6 @@ scared=r"""
 ⠀⠀⠀⠀⠀⠀⠀⢰⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⢿⣿⡿⢻⠀⠀⠙⢳⣿⣟⡛⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠸⠋⠀⡄⠐⣴⠁⢳⣤⢙⢃⠎⠉⠻⣿⣿⣿⣿⣿⣷⣾⡆⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⢰⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣃⣿⣦⡙⣇⣀⡀⠀⠈⠉⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠄⢀⣤⣷⣄⣠⣾⣿⣷⣌⣀⡎⣾⣴⡙⣰⣬⢻⣿⣿⣿⣿⣿⣿⣄⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⢠⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣏⣧⠓⣻⣿⣿⣏⠀⠉⠁⠀⠀⠀⣷⣦⢬⠟⠀⡔⡰⠃⣌⡂⣻⣿⡿⢋⣘⠻⣿⣿⣿⣿⣧⣼⠁⢙⣿⡻⠿⣿⣿⣿⣿⣿⣿⣿⡄⠀⠀⠀⠀
-
-
 """
 yellow=r"""
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣾⡿⠳⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣤⡶⠶⢖⠦⣄⠀⠀⠀⠀⠀⠀⠀
@@ -67,8 +64,6 @@ yellow=r"""
 ⠀⠀⠀⠀⠙⣄⠀⠀⠀⠀⠀⠀⠀⠊⠀⠀⠀⠀⢀⡴⠋⠳⢄⠀⠀⠀⠀⠀⠀⠀⠹⣿⣿⣿⣿⠁⠊⠀⠀⢀⡰⠋⠀⠀⠀⠀⠀⣠⡴⠋⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠈⠑⠦⣀⡀⠀⠀⠀⠀⠀⣀⡠⠖⠋⠀⠀⠀⠀⠙⠢⢄⡀⠀⠀⠀⠀⠈⠛⢿⣇⣀⣀⣠⠴⠋⠀⠀⠀⢀⣀⠤⠚⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠉⠒⠒⠚⠉⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠙⠒⠤⢤⣀⣀⣀⣀⣀⣀⣀⣀⡠⠤⠖⠚⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-
-
 """
 steve="""
 ⠀⠀⠀⠀⠀⣾⠛⡟⠻⢶⣤⣼⣿⡶⣦⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⡠⣄⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
@@ -109,8 +104,6 @@ steve="""
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠘⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣧⠀⢠⡟⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠹⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣆⡞⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠹⠿⠿⠿⠿⠛⠛⠛⠛⠛⠛⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
-
-
 """
 earth=fr"""
         _____
@@ -123,10 +116,7 @@ earth=fr"""
  \     | .'     `-'/
   `.   ;/        .'
     `'-._____. '
-
-    
-    
-    """
+"""
 rabbit=fr"""
              ,
             /|      __
@@ -148,13 +138,50 @@ rabbit=fr"""
      ]\      _\    /"\
     (" ~----( ~   Y.  )
 ~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
-
+"""
+cards=fr"""
+ _____________   _____________   _____________   _____________ 
+/             \ /             \ /             \ /             \
+│A    ___     │ │A     ^      │ │A  __   __   │ │A     ^      │
+│    /   \    │ │     / \     │ │  /  \ /  \  │ │     / \     │
+│  __\   /__  │ │    /   \    │ │  \   V   /  │ │    /   \    │
+│ /         \ │ │   /     \   │ │   \     /   │ │   (     )   │
+│ \___/ \___/ │ │  /       \  │ │    \   /    │ │    \   /    │
+│     │_│     │ │  \__/^\__/  │ │     \ /     │ │     \ /     │
+│            A│ │     /_\    A│ │      V     A│ │      V     A│
+\_____________/ \_____________/ \_____________/ \_____________/
+"""
+heart=fr"""
+  |  \ \ | |/ /            
+  |  |\ `' ' /             
+  |  ;'      \      / ,    
+  | ;    _,   |    / / ,   
+  | |   (  `-.;_,-' '-' ,  
+  | `,   `-._       _,-'_  
+  |,-`.    `.)    ,<_,-'_, 
+ ,'    `.   /   ,'  `;-' _,
+;        `./   /`,    \-'  
+|         /   |  ;\   |\   
+|        ;_,._|_,  `, ' \  
+|        \    \ `       `; 
+`      __ ;    \         ;;
+ \   ,'  `      \,       ;;
+  \_(            ;,      ;;
+  |  \           `;,     ;;
+  |  |`.          `;;,   ;'
+  |  |  `-.        ;;;;,;' 
+  |  |    |`-.._  ,;;;;;'  
+  |  |    |   | ``';;;'   
 """
 #endregion
 #scoring
 score= 0
+#intro
+print()
+print("welcome to my 9 question general knowledge quiz")
+print("for the best experience make the terminal as big as possible")
+print("Good luck!")
+print()
 
 #question 1 
 print("what is the fastest animal?\na: cheetah\nb: swordfish\nc: peregrine falcon")
@@ -166,6 +193,7 @@ if question_1==answer_1 :
     score +=1
 else :
     print("whoops that's incorrect, the correct answer was peregrine falcon (c)")
+print()
 
 #question 2
 print("What is acrophobia a fear of?\na: spiders\nb: hieghts\nc: water")
@@ -177,16 +205,19 @@ if question_2==answer_2:
     score +=1
 else:
     print("whoops that's incorrect, the correct answer was hieghts (b)")
+print()
 
 #question 3
-question_3 = input("what color is Aureolin a shade of?\nyour answer:").strip().lower()
-answer_3 = "yellow"
+print("what color is Aureolin a shade of?\na: blue\nb: green\nc: yellow")
+question_3 = input("your answer:").strip().lower()
+answer_3 = "c"
 #check answer
 if question_3==answer_3:
     print(f"that's correct!{yellow}")
     score +=1
 else:
     print("whoops that's incorrect, the correct answer was yellow")
+print()
 
 #question 4
 question_4= input("what year was the video game 'Minecraft' officially released?\nyour answer:").strip().lower()
@@ -197,6 +228,7 @@ if question_4==answer_4:
     score +=1
 else:
     print("whoops that's incorrect, the correct answer was 2011")
+print()
 
 #question 5
 question_5= input("how many time zones are there in the world?\nyour answer:").strip()
@@ -207,6 +239,7 @@ if question_5==answer_5:
     score +=1
 else:
     print("whoops that's incorrect, the correct answer was 24")
+print()
 
 #question 6
 print("in the series 'The Amazing World Of Gumball' what kind of animal is Anais?\na: mouse\nb: hamster\nc: rabbit")
@@ -218,17 +251,55 @@ if question_6==answer_6:
     score +=1
 else:
     print("whoops that's incorrect, the correct answer was rabbit (c)")
+print()
+
+#question 7
+question_7=input("how many cards are in a standard playing deck?\nyour answer: ").strip().lower()
+answer_7= "52"
+#check answer
+if question_7==answer_7:
+    print(f"that's correct!{cards}")
+    score +=1
+else:
+    print("whoops that's incorrect, the correct answer was 52")
+print()
+
+#question 8
+print("how many hearts does an octopus have?\na: 3\nb: 1\nc: 8")
+question_8=input("your answer: ").strip().lower()
+answer_8="a"
+#check answer
+if question_8==answer_8:
+    print(f"that's correct!{heart}")
+    score+=1
+else:
+    print("whoops that's incorrect, the correct answer was 3 (a)")
+print()
+
+#question 9
+print("which of the following gaming consoles were released first\na: original xbox\nb:PS2\nc: nintendo DS")
+question_9=input("your input").strip().lower()
+answer_9="b"
+#check answer
+if question_9==answer_9:
+    print(f"that's correct! the PS2 was released in 2000, the original xbox in 2001 and the nintendo ds in 2004")
+    score+=1
+else:
+    print("whoops that's incorrect, the correct answer was PS2 (b)")
+print()
+
+#question 10
 
 #final score
-print("You got "+str(score)+" out of 6 questions correct")
+print(f"You got {score} out of 9 questions correct")
 #score feedback
-if score==6:
+if score==8:
     print("congradulations you got all of them correct!")
-elif score>3:
+elif score>4:
     print("good job you got more than half right")
-elif score==3:
+elif score==4:
     print("you got exactly half of them correct")
 elif score==0:
-    print("oh no you didn't get any correct, better luck next time")
-elif score<3:
+    print("oh no! you didn't get any correct, better luck next time")
+elif score<4:
     print("that's less than half, better luck next time")
