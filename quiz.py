@@ -252,7 +252,8 @@ score= 0
 #intro
 print()
 print("Welcome to my 10 question general knowledge quiz")
-print("For the best experience make the terminal as big as possible and when a question gives options a, b or c please use either a,b or c to answer")
+print("For the best experience make the terminal as big as possible")
+print("When a question gives options a, b or c please use either a,b or c to answer")
 print("Good luck!")
 print()
 
@@ -260,6 +261,9 @@ print()
 print("What is the fastest animal?\na: cheetah\nb: swordfish\nc: peregrine falcon")
 question_1= input("Your answer:").strip().lower()
 answer_1= "c"
+#while loop for invalid answer
+while question_1!="a" and question_1!="b"and question_1!="c":
+    question_1=input("ERROR please answer using a, b or c\nYour answer: ")
 #check answer
 if question_1==answer_1:
     print(f"Correct! Peregrine falcons are the fastest animal in the world{falcon}")
@@ -268,10 +272,14 @@ else :
     print("Whoops that's incorrect, the correct answer was peregrine falcon (c)")
 print()
 
+
 #question 2
 print("What is acrophobia a fear of?\na: Spiders\nb: Hieghts\nc: Water")
 question_2=input("your answer:").strip().lower()
 answer_2="b"
+#while loop for invalid answer
+while question_2!="a" and question_2!="b"and question_2!="c":
+    question_2=input("ERROR please answer using a, b or c\nYour answer: ")
 #check answer
 if question_2==answer_2:
     print(f"Correct! Acrophbia is the fear of hieghts{scared}")
@@ -284,6 +292,9 @@ print()
 print("What color is aureolin a shade of?\na: blue\nb: green\nc: yellow")
 question_3 = input("your answer:").strip().lower()
 answer_3 = "c"
+#while loop for invalid answer
+while question_3!="a" and question_3!="b"and question_3!="c":
+    question_3=input("ERROR please answer using a, b or c\nYour answer: ")
 #check answer
 if question_3==answer_3:
     print(f"that's correct!{yellow}")
@@ -318,6 +329,9 @@ print()
 print("In the series 'The Amazing World Of Gumball' what kind of animal is Anais?\na: Mouse\nb: Hamster\nc: Rabbit")
 question_6= input("Your answer: ").strip().lower()
 answer_6= "c"
+#while loop for invalid answer
+while question_6!="a" and question_6!="b"and question_6!="c":
+    question_6=input("ERROR please answer using a, b or c\nYour answer: ")
 #check answer
 if question_6==answer_6 :
     print(f"Correct!{rabbit}")
@@ -341,6 +355,9 @@ print()
 print("How many hearts does an octopus have?\na: 3\nb: 1\nc: 8")
 question_8=input("Your answer: ").strip().lower()
 answer_8="a"
+#while loop for invalid answer
+while question_8!="a" and question_8!="b"and question_8!="c":
+    question_8=input("ERROR please answer using a, b or c\nYour answer: ")
 #check answer
 if question_8==answer_8:
     print(f"That's correct!{heart}")
@@ -353,6 +370,9 @@ print()
 print("which of the following gaming consoles were released first\na: original xbox\nb: PS2\nc: nintendo DS")
 question_9=input("Your answer: ").strip().lower()
 answer_9="b"
+#while loop for invalid answer
+while question_9!="a" and question_9!="b"and question_9!="c":
+    question_9=input("ERROR please answer using a, b or c\nYour answer: ")
 #check answer
 if question_9==answer_9:
     print(f"that's correct! the PS2 was released in 2000, the original Xbox in 2001 and the Nintendo DS in 2004{ps2}")
@@ -365,6 +385,9 @@ print()
 print("What year did the Sonic franchise start\na: 1991\nb: 2000\nc: 1989")
 question_10=input("Your answer: ").strip().lower()
 answer_10="a"
+#while loop for invalid answer
+while question_10!="a" and question_10!="b"and question_10!="c":
+    question_10=input("ERROR please answer using a, b or c\nYour answer: ")
 #check answer
 if question_10==answer_10:
     print(f"That's correct! The first sonic game was released in 1991{sonic}")
@@ -376,13 +399,13 @@ print()
 #final score
 print(f"You got {score} out of 10 questions correct")
 #score feedback
-if score==8:
+if score==10:
     print("Congradulations you got all of them correct!")
-elif score>4:
+elif score>5:
     print("Good job you got more than half right")
-elif score==4:
+elif score==5:
     print("You got exactly half of them correct")
 elif score==0:
     print("Oh no! You didn't get any correct, better luck next time")
-elif score<4:
+elif score<5:
     print("That's less than half, better luck next time")

@@ -176,3 +176,22 @@ print(fr"""
  \          /                              \           /
   \________/                                \_________/                   
 """)
+
+guess=input("what is the password? ")
+print("checking password is a match")
+while guess !="secret":
+    guess=input("try again ")
+    print("checking password is a match")
+input("welcome!")
+
+print("What is the fastest animal?\na: cheetah\nb: swordfish\nc: peregrine falcon")
+question_1= input("Your answer:").strip().lower()
+answer_1= "c"
+while question_1!="a" and question_1!="b"and question_1!="c":
+    question_1=input("ERROR please answer using a, b or c\nYour answer: ")
+#check answer
+if question_1==answer_1:
+    print(f"Correct! Peregrine falcons are the fastest animal in the world")
+else :
+    print("Whoops that's incorrect, the correct answer was peregrine falcon (c)")
+print()

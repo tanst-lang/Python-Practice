@@ -1,8 +1,3 @@
-print('hello'.upper())
-print('HELLO'.lower())
-if 'HELLO' == 'hello':
-    print('The same!')
-if 'HELLO'.lower() == 'hello':
-    print('The same!')
-
-
+import random
+print(random.random())
+print(random.randint(0,10))

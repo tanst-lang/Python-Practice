@@ -18,7 +18,7 @@ percent=(cost/budget)*100
 print(str(item)+" will be "+str(percent)+"%"+" of your budget")
 # Check if percentage is 0 and say it's free if it is
 if percent==0:
-    print("it is 0%"+" so it is free!")
+    print(f"it is 0% so it is free!")
 # Check if the percentage is less then 10 and say it's a small treat so enjoy
 elif percent<10:
     print("it is a small treat so enjoy")
