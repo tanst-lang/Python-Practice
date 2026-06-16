@@ -426,22 +426,26 @@ sonic=fr"""
                                      7<..%
 """
 #endregion
-#scoring
-score= 0
-#valid answers
-valid=['a','b','c']
-
-#question 1 
-print("What is the fastest animal?\na: cheetah\nb: swordfish\nc: peregrine falcon")
-question_1= input("Your answer:").strip().lower()
-answer_1= "c"
-#while loop for invalid answer
-while not question_1 in valid:
-    question_1=input("ERROR please answer using a, b or c\nYour answer: ")
-#check answer
-if question_1==answer_1:
-    print(f"Correct! Peregrine falcons are the fastest animal in the world{falcon}")
-    score +=1
-else :
-    print("Whoops that's incorrect, the correct answer was peregrine falcon (c)")
-print()
+fruit = [
+    ["apples", 52],
+    ["oranges", 47],
+    ["pears", 57],
+    ["bananas", 89],
+    ["strawberries", 32],
+    ["grapes", 68],
+    ["blueberries", 57],
+    ["pineapples", 50],
+    ["kiwifruit", 61],
+    ["watermelons", 30]
+]
+print(fruit[5][1])
+pokemons=[
+    ["Greninja", 10],
+    ["pikachu", 8],
+    ["charmander", 9],
+    ["jigglypuff", 6],
+]
+import random
+random_pokemon=pokemons[random.randint(0,len(pokemons))]
+print(str(random_pokemon))
+print(random_pokemon[0])

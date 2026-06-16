@@ -330,6 +330,14 @@ while play==True:
     answer_4= "2011"
     if question_4=="quit" and atempts>0:
         break
+    #check answer is valid
+    try:
+        question_4=int(question_4)
+        question_4=str(question_4)
+    except:
+        print("please answer using numbers and no spaces")
+        question_4=input("your answer").strip()
+
     #check answer
     if question_4==answer_4:
         print(f"That's correct!{steve}")
@@ -343,6 +351,12 @@ while play==True:
     answer_5= "24"
     if question_5=="quit" and atempts>0:
         break
+    try:
+        question_5=int(question_5)
+        question_5=str(question_5)
+    except:
+        print("please answer using numbers and no spaces")
+        question_5=input("your answer").strip()
     #check answer
     if question_5==answer_5:
         print(f"That's correct!{earth}")
@@ -373,6 +387,13 @@ while play==True:
     answer_7= "52"
     if question_7=="quit" and atempts>0:
         break
+    try:
+        question_7=int(question_7)
+        question_7=str(question_7)
+    except:
+        print("please answer using numbers and no spaces")
+        question_7=input("your answer").strip()
+
     #check answer
     if question_7==answer_7:
         print(f"That's correct!{cards}")
@@ -436,9 +457,9 @@ while play==True:
     print(f"You got {score} out of 10 questions correct")
     #score feedback
     if score==10:
-        print("Congradulations you got all of them correct!")
+        print("Congradulations, you got all of them correct!")
     elif score>5:
-        print("Good job you got more than half right")
+        print(f"Great work! you got more than half right, you were only {10-score} away from a perfect score")
     elif score==5:
         print("You got exactly half of them correct")
     elif score==0:
@@ -452,7 +473,7 @@ while play==True:
         play_again=input("would you like to play again: ").strip().lower()
     if play_again=="yes":
         atempts+=1
-        print("taking you back to the start...\n")
+        print("restarting...\n")
         continue
     else:
         play=False
